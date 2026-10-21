@@ -1,0 +1,12 @@
+{
+  "name": "anaya-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Anaya AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
