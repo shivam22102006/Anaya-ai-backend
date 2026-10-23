@@ -22,7 +22,7 @@ app.post("/ask", async (req, res) => {
         "Authorization": `Bearer ${apiKey}`
       },
       body: JSON.stringify({
-        model: "llama-3.3-70b-versatile",
+        model: "openai/gpt-oss-20b",
         messages: [
           { role: "system", content: "Tum Anaya ho, ek friendly Hindi AI assistant. Jawab saral Hindi mein do." },
           { role: "user", content: question }
